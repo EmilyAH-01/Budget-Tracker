@@ -37,6 +37,8 @@ self.addEventListener("activate", function(evt) {
             );
         })
     );
+
+    self.clients.claim();
 });
 
 // Enable service worker to intercept network requests
@@ -57,17 +59,15 @@ self.addEventListener("fetch", function(evt) {
                     .catch(err => {
                         return cache.match(evt.request);
                     });
-            })
+            }).catch(err => console.log(err))
         );
 
         return;
     }
 
     evt.respondWith(
-        caches.open(CACHE_NAME).then(cache => {
-            return cache.match(evt.request).then(response => {
-                return response || fetch(evt.request);
-            });
+        caches.match(evt.request).then(response => {
+            return response || fetch(evt.request);
         })
     );
 });
