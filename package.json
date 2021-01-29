@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "git+https://github.com/EmilyAH-01/HW-18_Budget-Tracker.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/EmilyAH-01/HW-18_Budget-Tracker/issues"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://github.com/EmilyAH-01/HW-18_Budget-Tracker/tree/main",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
