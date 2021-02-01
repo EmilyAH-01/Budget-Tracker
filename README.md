@@ -15,6 +15,8 @@ This Progressive Web Application (PWA) uses Express, Node.js, and MongoDB to sav
 
 The manifest.webmanifest and service-worker.js files allow for a shortcut link to be downloaded to the user's desktop or phone screen; this link allows the application to be opened and operated outside the browser. To download the link, open the deployed application link in Google Chrome, click the menu button in the upper right corner, then click "Install Budget Tracker".  
 
+![See /public/img/homepage.png](public/img/homepage.png?raw=true)
+
 DEPLOYED APPLICATION:
 https://herman-budget-tracker.herokuapp.com/
 
