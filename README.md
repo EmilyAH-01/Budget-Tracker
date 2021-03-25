@@ -1,4 +1,4 @@
-# HW-18_Budget-Tracker
+# Budget-Tracker
 
 Emily Herman 
 | MSU Coding Bootcamp Homework 18
